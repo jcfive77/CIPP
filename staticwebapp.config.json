@@ -1,4 +1,12 @@
 {
+  "networking": {
+    "allowedIpRanges": [
+     "108.53.101.23/32",   // jchome
+      "148.76.132.242/32",   // tinicum office
+      "38.140.253.194/32"   // tinicum office
+    ]
+  }
+  
   "routes": [
     {
       "route": "_next/static/*",
